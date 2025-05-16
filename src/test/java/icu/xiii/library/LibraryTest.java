@@ -43,7 +43,7 @@ public class LibraryTest {
         boolean isDeleted = library.removeBook(bookB);
         List<Book> books = library.getBooks();
         Assert.assertTrue("Удаление книги должно быть успешным", isDeleted);
-        Assert.assertFalse("Книга должна быть удалена", books.contains(bookB));
+        Assert.assertFalse("Книга Book B должна быть удалена", books.contains(bookB));
         Assert.assertTrue("Книга Book A не должна быть удалена", books.contains(bookA));
     }
 
