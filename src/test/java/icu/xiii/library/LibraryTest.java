@@ -65,6 +65,6 @@ public class LibraryTest {
     public void testGetBookCount() {
         library.addBook(bookA);
         library.addBook(bookB);
-        Assert.assertEquals("В библиотеке должно быьть 2 книги", 2, library.getBookCount());
+        Assert.assertEquals("В библиотеке должно быть 2 книги", 2, library.getBookCount());
     }
 }
